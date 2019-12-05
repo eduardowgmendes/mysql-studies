@@ -21,7 +21,7 @@ O conteúdo está dividido por seções e pode ser encontrado na lista abaixo:
 * [Entidade](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#entidade) 
 * [Tupla](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#tupla) 
 * [Chave](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#chave) 
-* Relacionamento 
+* [Relacionamento](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#relacionamento) 
   
 2. SQL Básico
 * Pesquisa básica em tabelas
