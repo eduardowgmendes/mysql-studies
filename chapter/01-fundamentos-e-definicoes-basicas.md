@@ -43,9 +43,9 @@ A sintaxe básica do comando é a seguinte:
 ```sql
 
 CREATE TABLE nome_tabela
-( nome-coluna-1 tipo-de-dado-coluna-1 coluna-1-constraint, 
-nome-coluna-2 tipo-de-dado-coluna-2 coluna-2-constraint,
-nome-coluna-n tipo-de-dado-coluna-n coluna-n-constraint,
+( nome-coluna1 tipo-de-dado-coluna1 coluna1-constraint, 
+nome-coluna2 tipo-de-dado-coluna2 coluna2-constraint,
+nome-colunan tipo-de-dado-colunan colunan-constraint,
 constraint-de-tabela)
 
 ```
@@ -54,11 +54,11 @@ onde:
 
 Argumento | Descrição 
 ----------|----------
-nome-tabela | Nome da Tabela. Deve ser único para o usuário. Não pode coincidir com o nome de outros objetos do banco de dados de um mesmo usuário. 
-nome-coluna | Nome da Coluna. Esse nome deve ser único e exclusivo na tabela. 
-tipo-de-dado-coluna | Tipo de dado conforme tabela anterior.
-coluna-constraint | Regras agregadas à coluna.
-constraint-de-tabela | Regras agregadas à tabela inteira.
+*nome-tabela* | Nome da Tabela. Deve ser único para o usuário. Não pode coincidir com o nome de outros objetos do banco de dados de um mesmo usuário. 
+*nome-coluna* | Nome da Coluna. Esse nome deve ser único e exclusivo na tabela. 
+*tipo-de-dado-coluna* | Tipo de dado conforme tabela anterior.
+*coluna-constraint* | Regras agregadas à coluna.
+*constraint-de-tabela* | Regras agregadas à tabela inteira.
 
 Exemplo: 
 
