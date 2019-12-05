@@ -123,3 +123,55 @@ Nem todo campo é uma boa chave primária. Normalmente utilizamos campos numéri
 ### Chave Secundária 
 Esta chave é utilizada como meio de classificação e pesquisas em entidades.    
 
+## Relacionamento 
+Sempre que duas entidades apresentarem interdependência (por exemplo, autor da música ou música do CD), indica-se um relacionamento entre elas.
+
+Assim podemos dizer que: 
+
+1. Cada CD deve ser gravado por uma única gravadora. 
+2. Cada gravadora pode ter gravado um ou mais CDs. 
+
+1. Cada autor pode ter escrito uma ou mais músicas.
+2. Cada música pode ser escrita por um ou mais autores.
+
+1. Cada música pode estar gravada em um ou mais CD.
+2. Cada CD deve conter uma ou mais músicas. 
+
+1. Cada CD pode ser indicado por um ou mais CDs. 
+2. Cada CD pode indicar um único CD. 
+
+Conforme você pode notar, cada relacionamento contém um nome (normalmente um verbo como ser gravado, conter, ter escrito), a determinação de opcionalidade (deve ou pode) e um grau ou cardinalidade (uma única ou uma ou mais).
+
+### Cardinalidade 
+Há três tipos de relacionamentos: 
+
+* Um para um (1:1)
+* Um para muitos (1:n)
+* Muitos para muitos (m:n)
+
+### Relacionamento 1:1
+Ocorre sempre que uma entidade tiver uma única ocorrência para cada ocorrência na outra entidade. Exemplos:
+
+* Departamento e Gerente
+	* Para cada departamento existe apenas um gerente 
+* Placa Mãe e Computador
+	* Cada computador possui apenas uma placa mãe  
+
+### Relacionamento 1:n
+Ocorre sempre que uma entidade se relacionar com uma ou mais tuplas da outra entidade e esta outra se relacionar apenas com uma tupla daquela entidade. 
+
+* Gravadora e CD 
+	* Uma gravadora possui vários CDs gravados por ela
+* Cliente e Pedido
+	* Um cliente possui vários pedidos
+* Pedido e Item do Pedido
+	* Um pedido possui vários itens 
+
+### Relacionamento m:n
+Ocorre sempre que uma entidade se relacionar com várias tuplas de outra entidade e esta, por sua vez, relacionar-se com várias tuplas daquela entidade.  
+
+* Autor e Música 
+	* Cada música é composta por vários autores e cada autor pode compor uma ou várias músicas 
+* Aluno e Matéria 
+	* Cada aluno é inscrito em uma ou várias matérias e cada matéria possui vários alunos 
+
