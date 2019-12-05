@@ -18,6 +18,7 @@ O conteúdo está dividido por seções e pode ser encontrado na lista abaixo:
 * [Introdução](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#introdu%C3%A7%C3%A3o)
 * [O que é SQL?](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#o-que-%C3%A9-sql)
 * [Tabela](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#tabela) 
+* Abordagem Relacional: O Modelo de Entidade X Relacionamento
 * [Entidade](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#entidade) 
 * [Tupla](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#tupla) 
 * [Chave](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#chave) 

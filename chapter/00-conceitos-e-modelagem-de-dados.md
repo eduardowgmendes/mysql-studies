@@ -62,6 +62,57 @@ Banco de Dados é um conjunto coerente e lógico de dados relacionados que possu
 Uma tabela pode ser compreendida como um conjunto de linhas e colunas. As colunas de uma tabela qualificam cada elemento (no caso, a linha) com informações relacionadas ao objeto.
 Utilizando esses conceitos, é possível armazenar dados em uma ou várias tabelas, dependendo do que e como desejamos as informações. 
 
+## Abordagem Relacional: O Modelo de Entidade X Relacionamento
+A Abordagem Relacional é a utilização de conceitos de Entidade e Relacionamento para criar as estruturas que irão compor o banco de dados. Partindo sempre da necessidade do usuário ou grupo de usuários do sistema, iniciamos a pesquisa das necessidades de informação desses usuários. 
+
+A definição do escopo do sistema é, portanto, importante para o início do trabalho de análise de dados. 
+
+É comum no início do desenvolvimento de um sistema que não tenhamos a noção exata da tarefa a ser realizada. O maior error nessa fase é admitir que jpa sabemnmos o que deve ser feito, seja por experiência anterior, seja por falta de tempo para conversar com os usuários do sistema. 
+
+Para minimizar esse problema, devemos criar uma estrutura gráfica que permita identificar as Entidades de um sistema e como estas se relacionam. 
+
+Nessa fase é importante saber quais informações são importantes para o sistema e o que deve ser armazenado (note que não utilizamos o como deve ser armazenado; isso será discutido na fase posterior). A esta representação gráfica dá-se o nome de Modelo de Dados.
+
+Devemos notar que o Modelo de Dados dará suporte a toda a empresa, incorporando as informações necessárias para o andamento dos negócios. Ele será composto de Entidades e Relacionamentos, daí ser conhecido por MOdelo e Entidade X Relacionamento (MER).
+
+Vantagens na utilização do Modelo de Entidade X Relacionamento: 
+
+* **Sintaxe robusta**: o modelo documenta as necessidades de informação da empresa de maneira precisa e clara 
+
+* **Comunicação com usuário**: os usuários podem, com pouco de esforço, entender o modelo.
+
+* **Facilidade de criação**: os analistas podem criar e manter um modelo facilmente.
+
+* **Integração com várias aplicações**: diversos projetos podem ser inter-relacionados utilizando-se o modelo de dados de cada um deles.
+
+* **Utilização universal**: o modelo não está vinculado a um banco de dados específico, mas sim ao modelo da empresa, o que garante sua independência de implementação.
+
+## Objetivos da Modelagem de Dados
+
+O principal objetivo da Modelagem de Dados é desenvolver um modelo que, contendo as entidades e relacionamentos, seja capaz de representar os requerimentos das informações do negócio.
+
+Veja o que poderia ser um exemplo de catálogo de CDs: 
+
+Cód | Nome do CD | Nome da Música | Nome do Autor |
+----|------------|----------------|---------------|
+01 | Mais do Mesmo | Será | Renato Russo e ...
+02 | Mais do Mesmo | Será | Renato Russo e ...
+03 | Mais do Mesmo | Será | Renato Russo e ...
+04 | Bate-Boca | Meninos, Eu Vi | Tom Jobim e ...
+05 | Bate-Boca | Eu te Amo | Tom Jobim e ...
+  
+Um dos principais problemas relacionados com banco de dados é a redundância (repetição) das informações. Sempre que houver duas informações, nunca se saberá em qual deals pode confiar.
+
+Imagine que na tabela exemplo alguém altere o nome do CD **apenas** na linha 2 para **Mais ou Menos**. Qual dos nomes estaria correto, **Mais do Mesmo** ou **Mais ou Menos**? É por isso que devemos criar um banco de dados com um mínimo de redundância, evitando esse problema.
+
+Exatamente para evitar redundância é que se cria uma série de tabelas no banco de dados, e não apenas uma. Naturalmente isso aumenta a complexidade da operação, mas traz uma enorme vantagem ao evitar redundância.
+
+Um outro objetivo é a economia de espaço. Quando se admite a redundância, é muito comum ter que repetir nomes, descrições, datas e etc. Ao isolarmos essas informações em tabelas distintas e ao relacionarmos as tabelas por um código comum estamos economizando espaço de armazenamento. 
+
+No exemplo anterior, identificamos que há diversos dados redundantes: código do CD, nome do CD, nome da Gravadadora, preço e autor. Além do mais, a simples repetição desses campos representa um espaço gasto sem necessidade. Podemos separar as informações em mais de uma tabela, armazenando apenas uma vez cada informação distinta e relacionando as tabelas. 
+
+Exemplo: podemos criar uma tabela para armazenar os dados dos CDs (código do CD, nome do CD, nome da gravadora e preço) e outra para armazenar as músicas (Número da Faixa, Nome, Autor, e Tempo). Basta acrescentar o código do CD em Músicas e teríamos uma relação entre Música e CD. Contudo, somente isso não é suficiente. 
+
 ## Entidade 
 Entidade é um agrupamento lógico de informações inter-relacionadas necessárias para a execução das atividades do sistema. Uma entidade normalmente representa um objeto do mundo real, quando não é, contém informações relevantes às operações da empresa .
 
@@ -86,6 +137,11 @@ Contém dados básicos que são resultados ou alimentadores das operações da e
 * Aluno x Matéria 
 * CD x Autor 
 * Pedido X Produto etc. 
+
+## Entidades Associativas 
+Há um caso específico para as Entidades Associativas: sempre que, além do simples relacionamento entre as duas entidades fundamentais, houver outras informações específicas da nova entidade criada (como, por exemplo, a quantidade e o valor entre o pedido x produto ou bimestre, nota e faltas do aluno x matéria), ela será chamada de entidade associativa atributiva.
+
+No catálogo de CD dado como exemplo, podemos identificar facilmente duas entidades: CD e Música. Observando com mais cuidado, vê-se que Gravadora e Autor também possuem uma estrutura independente. Isso porque há outras informações que, apesar de não estarem descritas na planilha, são fato apenas da Gravadora e do Autor. Exemplo: endereço, data de nascimento, telefone e etc. Para isso é importante entender o que são os atributos (catacterísticas) de uma Entidade.   
 
 ## Atributos 
 Os atributos são as informações básicas que qualificam uma entidade e descrevem seus elementos ou características. 
