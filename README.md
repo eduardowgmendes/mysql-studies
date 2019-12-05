@@ -15,12 +15,12 @@ Este livro já tem um pouco mais de idade mas de qualquer forma também acrescen
 O conteúdo está dividido por seções e pode ser encontrado na lista abaixo: 
 
 1. Conceitos e Modelagem de Dados - Parte I
-* Introdução
-* O que é SQL?
-* Tabela 
-* Entidade 
-* Tupla 
-* Chave 
+* [Introdução](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#introdu%C3%A7%C3%A3o)
+* [O que é SQL?](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#o-que-%C3%A9-sql)
+* [Tabela](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#tabela) 
+* [Entidade](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#entidade) 
+* [Tupla](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#tupla) 
+* [Chave](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#chave) 
 * Relacionamento 
   
 2. SQL Básico - Parte II
