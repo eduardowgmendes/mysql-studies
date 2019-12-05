@@ -56,7 +56,7 @@ Argumento | Descrição
 ----------|----------
 *nome-tabela* | Nome da Tabela. Deve ser único para o usuário. Não pode coincidir com o nome de outros objetos do banco de dados de um mesmo usuário. 
 *nome-coluna* | Nome da Coluna. Esse nome deve ser único e exclusivo na tabela. 
-*tipo-de-dado-coluna* | Tipo de dado conforme tabela anterior.
+*tipo-de-dado-coluna* | Tipo de dado conforme [tabela anterior](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#defini%C3%A7%C3%A3o-de-dados).
 *coluna-constraint* | Regras agregadas à coluna.
 *constraint-de-tabela* | Regras agregadas à tabela inteira.
 
