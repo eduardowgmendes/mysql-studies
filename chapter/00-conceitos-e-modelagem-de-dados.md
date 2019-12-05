@@ -106,7 +106,7 @@ Exemplos de atributos para as entidades:
 
 Há três tipos de chave: 
 
-* Priária 
+* Primária 
 * Estrangeira
 * Secundária 
 
