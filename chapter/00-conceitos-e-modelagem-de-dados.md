@@ -73,3 +73,16 @@ Documentos | Ordem de compra, pedido e nota fiscal
 Local | Almoxarifado e departamento
 Tabelas | Classificação fiscal, centro de custo e UF
 Matéria | Produto e peça 
+
+### Classificação de entidades
+As entidades podem ser classificadas em dois tipos: 
+
+### Fundamental 
+Contém dados básicos que são resultados ou alimentadores das operações da empresa. 
+
+### Associativa 
+É formada pele Relacionamento de duas Entidades Fundamentais sempre que estas se relacionarem mais de uma vez. Exemplos: 
+
+* Aluno x Matéria 
+* CD x Autor 
+* Pedido X Produto etc. 
