@@ -118,6 +118,8 @@ Nem todo campo é uma boa chave primária. Normalmente utilizamos campos numéri
 ### Chave Estrangeira 
 É o atributo que estabelece relação de uma Entidade com a Chave Primária de outra Entidade e permite uma relação entre entidades.
 
+![Chave Estrangeira Exemplo](https://raw.githubusercontent.com/eduardowgmendes/mysql-studies/master/images/mdr_chave_estrangeira.jpg)
+
 ### Chave Secundária 
 Esta chave é utilizada como meio de classificação e pesquisas em entidades.    
 
