@@ -23,8 +23,13 @@ O conteúdo está dividido por seções e pode ser encontrado na lista abaixo:
 * [Tupla](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#tupla) 
 * [Chave](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#chave) 
 * [Relacionamento](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#relacionamento) 
-  
-2. SQL Básico
+ 
+2. Fundamentos e definições básicas 
+* [Definição de Dados](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#defini%C3%A7%C3%A3o-de-dados)
+* [Criação de Tabelas](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#cria%C3%A7%C3%A3o-de-tabelas)
+* [Integridade Referencial - `constraints`](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#integridade-referencial---constraints)
+ 
+3. SQL Básico
 * Pesquisa básica em tabelas
 * Ordenando os resultados 
 * Filtrando linhas
