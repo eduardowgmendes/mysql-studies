@@ -3,10 +3,12 @@
 ## Objetivos deste repositório 
 Apresentar a linguagem SQL àqueles que assim como eu estão iniciando o estudo dessa poderosa ferramenta de manipulação de bando de dados. Todo o conteúdo presente aqui é proveniente de estudos de duas literaturas fonte: 
 
-* Aprendendo SQL - Alan Beaulieu
+### Aprendendo SQL - Alan Beaulieu
+
 Este livro sensacional apresenta diversos conceitos importantíssimos sobre o assunto. A leitura é válida até para profissionais mais experientes. 
   
-* SQL Curso Prático - Celso Henrique Poderoso de Oliveira
+### SQL Curso Prático - Celso Henrique Poderoso de Oliveira
+
 Este livro já tem um pouco mais de idade mas de qualquer forma também acrescenta muita informação relevante graças a experiência do autor com a linguagem. Leitura recomendada!    
 
 ## Divisão do conteúdo no repositório 
