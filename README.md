@@ -14,7 +14,7 @@ Este livro já tem um pouco mais de idade mas de qualquer forma também acrescen
 ## Divisão do conteúdo no repositório 
 O conteúdo está dividido por seções e pode ser encontrado na lista abaixo: 
 
-1. Conceitos e Modelagem de Dados - Parte I
+1. Conceitos e Modelagem de Dados
 * [Introdução](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#introdu%C3%A7%C3%A3o)
 * [O que é SQL?](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#o-que-%C3%A9-sql)
 * [Tabela](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#tabela) 
@@ -23,7 +23,7 @@ O conteúdo está dividido por seções e pode ser encontrado na lista abaixo:
 * [Chave](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#chave) 
 * Relacionamento 
   
-2. SQL Básico - Parte II
+2. SQL Básico
 * Pesquisa básica em tabelas
 * Ordenando os resultados 
 * Filtrando linhas
