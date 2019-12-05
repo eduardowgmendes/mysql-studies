@@ -86,3 +86,38 @@ Contém dados básicos que são resultados ou alimentadores das operações da e
 * Aluno x Matéria 
 * CD x Autor 
 * Pedido X Produto etc. 
+
+## Atributos 
+Os atributos são as informações básicas que qualificam uma entidade e descrevem seus elementos ou características. 
+
+Há uma tendência em confundir Entidade e Atributo. Tenha em mente que atributo é uma característica, logo não contém um grupo de informações. POr sua vez, uma entidade sempre é um grupo. No mínimo são necessários dois atributos para criar uma entidade.
+
+Exemplos de atributos para as entidades: 
+
+**Entidade Pessoa**: nome, endereço, documento, data de nascimento, telefone e e-mail.
+
+**Entidade Nota Fiscal**: série, número, data de emissão e cliente.
+
+## Tupla 
+É uma estrutura de atributos intimamente relacionados e interdependentes que residem em uma entidade. Saindo um pouco da definição formal uma tupla a grosso modo seria um registro.
+
+## Chave
+É um atributo utilizado para indexar dados. 
+
+Há três tipos de chave: 
+
+* Priária 
+* Estrangeira
+* Secundária 
+
+### Chave Primária
+É o atributo que permite identificar uma única ocorrência de uma tupla em uma Entidade. 
+Dessa forma, seu conteúdo deve ser único, exclusivo e imutável para cada linha dessa Entidade. Todos os demais atributos da entidade devem depender unicamente desse atributo. 
+Nem todo campo é uma boa chave primária. Normalmente utilizamos campos numéricos por serem localizados mais rapidamente pelos bancos de dados. Valores alfanuméricos grandes têm acesso mais lento. Todas as tabelas devem conter uma chave primária. 
+
+### Chave Estrangeira 
+É o atributo que estabelece relação de uma Entidade com a Chave Primária de outra Entidade e permite uma relação entre entidades.
+
+### Chave Secundária 
+Esta chave é utilizada como meio de classificação e pesquisas em entidades.    
+
