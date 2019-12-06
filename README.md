@@ -28,7 +28,20 @@ O conteúdo está dividido por seções e pode ser encontrado na lista abaixo:
 * [Definição de Dados](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#defini%C3%A7%C3%A3o-de-dados)
 * [Criação de Tabelas](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#cria%C3%A7%C3%A3o-de-tabelas)
 * [Integridade Referencial - `constraints`](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#integridade-referencial---constraints)
- 
+* [Tipos de Constraints mais Comuns](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#tipos-de-constraints-mais-comuns) 
+* [`DEFAULT`](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#default)
+* [`NOT NULL`](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#not-null)
+* [`UNIQUE`](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#unique)
+* [`CHECK` - Definição de Domínio](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#check---defini%C3%A7%C3%A3o-de-dom%C3%ADnio)
+* [Assertivas](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#assertivas) 
+* [Alteração de estrutura de tabela](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#altera%C3%A7%C3%A3o-de-estrutura-de-tabela) 
+* [Acrescentar novas colunas](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#acrescentar-novas-colunas)
+* [Acrescentar novas constraints](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#acrescentar-novas-constraints)
+* [Modificar Colunas](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#modificar-colunas)
+* [Excluindo elementos](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#excluindo-elementos)
+* [Trocar nome de elementos](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#trocar-nome-de-elementos) 
+* [Elimando uma tabela](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/01-fundamentos-e-definicoes-basicas.md#eliminando-uma-tabela) 
+
 3. SQL Básico
 * Pesquisa básica em tabelas
 * Ordenando os resultados 
