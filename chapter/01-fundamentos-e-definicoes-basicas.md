@@ -77,6 +77,7 @@ REFERENCES Gravadora (Codigo_Gravadora),
 CHECK (Preco_Venda > 0)
 );
 
+```
 ## Tipos de Constraints mais comuns
 
 Serão analisados alguns tipos de constraints encontrados com mais frequência nos bancos de dados. As constraints variam muito de um banco de dados para outro. Pode ser que algumas delas não esteja presente no banco de dados que você estiver utilizando.
