@@ -11,11 +11,11 @@ Devemos observar que quando desenvolvemos um sistema, dificilmente temos todas a
 
 Há cinco regras que se aplicam a banco de dados: 
 
-* - a. Primeira Forma Normal (1FN).
-* - a. Segunda Forma Normal (2FN).
-* - a. Terceira Forma Normal (3FN).
-* - a. Quarta Forma Normal (4FN).
-* - a. Quinta Forma Normal (5FN).
+* a. Primeira Forma Normal (1FN).
+* b. Segunda Forma Normal (2FN).
+* c. Terceira Forma Normal (3FN).
+* d. Quarta Forma Normal (4FN).
+* e. Quinta Forma Normal (5FN).
 
 Ao aplicarmos as regras anteriores já é possível atingirmos o objetivo ao qual se propõe a normalização de dados. Um modelo estável pode ser garantido quando atingimo a terceira forma normal. As demais formas serão utilizadas em casos específicos, desde que sejam absolutamente necessárias. 
 
