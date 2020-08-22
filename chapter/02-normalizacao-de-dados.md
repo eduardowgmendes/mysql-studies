@@ -1,7 +1,7 @@
 ## Normalização de Dados
 Conforme vimos anteriormente, é muito melhor adotarmos uma estratégia em que se utilizem várias tabelas relacionadas em vez de uma única tabela. Basicamente, dois fatores nos levam a essa conclusão: redundância e espaço. Outros fatores também influenciam essa escolha, como a possibilidade de melhorarmos a qualidade da informação, seja fornecendo uma informação mais segura, seja pelo aumento da quantidade de dados no futuro. 
 
-A forma apresentada com o uso do !(Modelo de Entidade X Relacionamento)[https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#abordagem-relacional-o-modelo-de-entidade-x-relacionamento] é muito prática e usual, mas poderá deixar várias dúvidas quanto ao modelo adotado. Uma forma mais "científica" de realizar esse trabalho é utilizar a normalização de dados. 
+A forma apresentada com o uso do [Modelo de Entidade X Relacionamento](https://github.com/eduardowgmendes/mysql-studies/blob/master/chapter/00-conceitos-e-modelagem-de-dados.md#abordagem-relacional-o-modelo-de-entidade-x-relacionamento) é muito prática e usual, mas poderá deixar várias dúvidas quanto ao modelo adotado. Uma forma mais "científica" de realizar esse trabalho é utilizar a normalização de dados. 
 
 A normalização de dados é uma sequência de etapas sucessivas que, ao final, apresentará um modelo de dados estável com um mínimo de redundância. 
 
